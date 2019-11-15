@@ -11,7 +11,7 @@ except ImportError:
 with open('README.md', 'rb') as readme_file:
     readme = readme_file.read().decode('utf8')
 
-with open('HISTORY.rst', 'rb') as history_file:
+with open('HISTORY.md', 'rb') as history_file:
     history = history_file.read().decode('utf8')
 
 requirements = [
