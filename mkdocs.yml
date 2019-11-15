@@ -1,0 +1,25 @@
+site_name: μMongo
+site_description: 'μMongo: sync/async ODM'
+site_url: https://umongo.readthedocs.io/en/latest/?badge=latest
+
+theme:
+    name: 'material'
+    palette:
+      primary: 'teal'
+      accent: 'amber'
+
+repo_name: Scille/umongo
+repo_url: https://github.com/Scille/umongo
+edit_uri: ''
+
+nav:
+    - μMongo: 'index.md'
+
+markdown_extensions:
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown_include.include:
+      base_path: docs
+  - admonition
+  - codehilite
+  - extra

@@ -3,6 +3,8 @@ wheel
 flake8
 tox
 coverage
-Sphinx
 pytest
 pytest-cov
+mkdocs
+mkdocs-material
+markdown-include
