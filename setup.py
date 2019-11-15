@@ -8,7 +8,7 @@ except ImportError:
     from distutils.core import setup
 
 
-with open('README.rst', 'rb') as readme_file:
+with open('README.md', 'rb') as readme_file:
     readme = readme_file.read().decode('utf8')
 
 with open('HISTORY.rst', 'rb') as history_file:
