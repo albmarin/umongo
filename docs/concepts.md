@@ -1,10 +1,8 @@
-## Concepts
-
 In **μMongo** 3 worlds are considered:
 
 ![Data Flow](img/index/data_flow.png)
 
-### Client world
+## Client world
 
 This is the data from outside μMongo, it can be JSON dict from your web framework
 (i.g. ``request.get_json()`` with [flask](http://flask.pocoo.org/){:target="_blank"} or
@@ -30,7 +28,7 @@ The unserialization operation is done automatically when instantiating a
 :class:`umongo.Document`. The serialization is done when calling
 :meth:`umongo.Document.dump` on a document instance.
 
-### Object Oriented world
+## Object Oriented world
 
 So what's good about :class:`umongo.Document` ? Well it allows you to work
 with your data as Objects and to guarantee there validity against a model.
@@ -129,7 +127,7 @@ DocumentDefinitionError: Document <class '__main__.Dog'> doesn't allow inheritan
 AbstractDocumentError: Cannot instantiate an abstract Document
 ```
 
-### Mongo world
+## Mongo world
 
 What the point of a MongoDB ODM without MongoDB ? So here it is !
 

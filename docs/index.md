@@ -18,14 +18,15 @@
 
 ---
 
-μMongo is a Python MongoDB ODM. It inception comes from two needs:
-the lack of async ODM and the difficulty to do document (un)serialization
-with existing ODMs.
+μMongo is a Python MongoDB ODM. Its inception comes from two needs:
+
+1. The lack of async ODM
+2. The difficulty in doing document (un)serialization with existing ODMs.
 
 From this point, μMongo made a few design choices:
 
-- Stay close to the standards MongoDB driver to keep the same API when possible:
-  use ``find({"field": "value"})`` like usual but retrieve your data nicely OO wrapped !
+- Stay close to the standards MongoDB driver to keep the same API when possible,
+  i.e., use ``find({"field": "value"})`` like usual but retrieve your data nicely OO wrapped!
 - Work with multiple drivers ([PyMongo](https://api.mongodb.org/python/current/){:target="_blank"}, [TxMongo](https://txmongo.readthedocs.org/en/latest/){:target="_blank"}, [motor_asyncio](https://motor.readthedocs.org/en/stable/){:target="_blank"} and [mongomock](https://github.com/vmalloc/mongomock){:target="_blank"} for the moment)
 - Tight integration with [Marshmallow](http://marshmallow.readthedocs.org){:target="_blank"} serialization library to easily
   dump and load your data with the outside world
