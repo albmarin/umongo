@@ -13,7 +13,8 @@ repo_url: https://github.com/Scille/umongo
 edit_uri: ''
 
 nav:
-    - μMongo: 'index.md'
+  - μMongo: 'index.md'
+  - Base Concepts: 'concepts.md'
 
 markdown_extensions:
   - markdown.extensions.codehilite:
